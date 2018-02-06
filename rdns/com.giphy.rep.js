@@ -4,7 +4,7 @@
         "width": 480,
         "height": 324
     },
-    "rep": function /*CodeBlock*/ () {
+    "rep": (javascript () >>>
         return {
             tag: domplate.tags.IMG({
                 src: "$name|generateURL"
@@ -13,7 +13,7 @@
                 return 'https://media.giphy.com/media/' + name + '/giphy.gif';
             }
         };
-    },
+    <<<),
     "tests": {
         "01": {
             "result": (html () >>>

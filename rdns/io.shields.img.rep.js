@@ -4,7 +4,7 @@
         "status": "Rocks!",
         "color": "green"
     },
-    "rep": function /*CodeBlock*/ () {
+    "rep": (javascript () >>>
         return {
             tag: domplate.tags.IMG({
                 src: "$subject,$status,$color|generateURL"
@@ -13,7 +13,7 @@
                 return 'https://img.shields.io/badge/' + subject + '-' + status + '-' + color + '.svg';
             }
         };
-    },
+    <<<),
     "tests": {
         "01": {
             "result": (html () >>>

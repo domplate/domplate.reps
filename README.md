@@ -10,8 +10,11 @@ Usage
     npm install
     npm test
 
-    # To hack on reps use
+    # To hack on reps
     npm run workspace
+
+    # To build reps for distribution
+    npm run build
 
 Provenance
 ==========
