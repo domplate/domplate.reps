@@ -1,5 +1,7 @@
-Handy Domplate Reps
-===================
+domplate.reps
+=============
+
+> Common object representations for nice visualizations.
 
 Run `npm test` to see what is possible.
 
