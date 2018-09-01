@@ -3,5 +3,8 @@
         "test": "node node_modules/domplate test **/*.rep.js",
         "build": "echo 'TODO'",
         "workspace": "echo 'TODO'"
+    },
+    "dependencies": {
+        "domplate": "^0.3.0"
     }
 }
